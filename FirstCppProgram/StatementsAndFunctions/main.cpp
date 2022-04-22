@@ -19,8 +19,9 @@ int main(){
     int sum = first_number + second_number;
     std::cout << "Sum: " << sum << std::endl;
 
-
     std::cout << "Sum: " << add(23, 123) << std::endl;
+
+    std::cout << "Multiplication: " << mult(first_number, second_number) << std::endl;
 
 
 
