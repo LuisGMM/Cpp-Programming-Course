@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+
+WHERE_FROM=$(pwd) 
+
+cp -r $WHERE_FROM/Template $WHERE_FROM/$1/
+
+exit
+
+
