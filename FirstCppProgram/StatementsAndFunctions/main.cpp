@@ -6,7 +6,9 @@ int add(int first_number, int second_number){
     return first_number + second_number;
 }
 
-
+int mult(int first_number, int second_number){
+    return first_number*second_number;
+}
 int main(){
 
     int first_number {13};
