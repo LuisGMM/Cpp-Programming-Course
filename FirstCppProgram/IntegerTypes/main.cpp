@@ -15,9 +15,14 @@ int main(){
     // This initialization is more strict
     // int conversion {2.9}; 
 
-    // This initialization is truncate non int values. (Loses information)
-    int conversion (2.9);
+    // This initialization truncates non int values. (Loses information)
+    // int conversion (2.9);
+
+    // This initialization truncates non int values. (Loses information)
+    int conversion = 2.9;
 
     std::cout << "conversion " << conversion << std::endl; 
+    std::cout << "sizeof conversion " << sizeof(conversion) << std::endl; 
+
     
 }
